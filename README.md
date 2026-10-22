@@ -9,14 +9,23 @@ traditional or simplified characters.
 This repository is a showcase. The source code is private; this page explains
 what the app does and how it is built and run.
 
-<!-- screenshots: docs/screenshots/*.png -->
+<p align="center">
+  <img src="docs/screenshots/home.png" width="18%" alt="Home: today's goal and progress">
+  <img src="docs/screenshots/review.png" width="18%" alt="Review: a flashcard">
+  <img src="docs/screenshots/learn.png" width="18%" alt="Learn: by level, subject, quiz or numbers">
+  <img src="docs/screenshots/cards.png" width="18%" alt="Cards: the catalogue and My Cards">
+  <img src="docs/screenshots/progress.png" width="18%" alt="Progress: mastered, learning, due, not started">
+</p>
+
+<p align="center"><sub>Home · Review · Learn · Cards · Progress (iPhone, dark theme, demo account)</sub></p>
 
 ## What it does
 
 - **Learn**: browse cards by TOCFL level, HSK level or topic (animals, the
   face, countries…), with pinyin, meaning and pronunciation.
-- **Review**: spaced repetition with four answers (Again, Hard, Good, Easy).
-  A card counts as *mastered* once its interval reaches four days.
+- **Review**: spaced repetition. You see the character, tap to reveal it,
+  and say how it went, from "Didn't know" to "Instant". A card counts as
+  *mastered* once its interval reaches four days.
 - **My Cards**: save cards while learning and organise them in your own lists.
 - **Quiz**: HSK and TOCFL quizzes in two modes, Classic and Streak, plus a
   numbers drill.
