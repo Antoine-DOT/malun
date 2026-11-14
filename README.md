@@ -64,7 +64,7 @@ A few design decisions:
 
 Malun is built and tested in [ATL-Lab](https://github.com/Antoine-DOT/atl-lab),
 my home lab, and runs in production on a rented VPS in the EU. The VPS pulls
-each approved release itself; the lab opens no connection to it.
+each approved release itself, over HTTPS.
 
 Every change follows the same path: development, then a preview environment
 deployed by [atl-preview-controller](https://github.com/Antoine-DOT/atl-preview-controller),
