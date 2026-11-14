@@ -4,7 +4,7 @@
 learners preparing the TOCFL (Taiwan) and the HSK (mainland China), in
 traditional or simplified characters.
 
-→ [mandarin.antoineleflon.com](https://mandarin.antoineleflon.com)
+→ [malun.app](https://malun.app)
 
 This repository is a showcase. The source code is private; this page explains
 what the app does and how it is built and run.
@@ -84,8 +84,10 @@ the same gates whoever wrote the code.
 
 ## Status
 
-In production and in active development. Next: topics by theme, a new
-onboarding, and a subscription model.
+In production at [malun.app](https://malun.app). The iOS app (version 1.0,
+with a free tier and an optional Pro subscription) was submitted to the App
+Store on 14 November 2026 and is in review. The interface is available in
+French and English.
 
 ---
 
