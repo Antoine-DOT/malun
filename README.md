@@ -4,7 +4,7 @@
 learners preparing the TOCFL (Taiwan) and the HSK (mainland China), in
 traditional or simplified characters.
 
-→ [malun.app](https://malun.app)
+→ [Download on the App Store](https://apps.apple.com/app/id6828634809) · [malun.app](https://malun.app)
 
 This repository is a showcase. The source code is private; this page explains
 what the app does and how it is built and run.
@@ -89,8 +89,8 @@ the same gates whoever wrote the code.
 ## Status
 
 In production at [malun.app](https://malun.app). The iOS app (version 1.0,
-with a free tier and an optional Pro subscription) was approved by Apple on
-16 November 2026 and will be published on the App Store shortly. The interface is available in
+with a free tier and an optional Pro subscription) was approved by Apple and released
+on [the App Store](https://apps.apple.com/app/id6828634809) on 16 November 2026. The interface is available in
 French and English.
 
 ---
