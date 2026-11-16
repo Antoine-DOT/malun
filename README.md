@@ -1,6 +1,6 @@
 # Malun
 
-**Learn Mandarin with clarity.** Malun is a hanzi-first flashcard app for
+**Learn Mandarin with clarity.** Malun is a hanzi-first iPhone app for
 learners preparing the TOCFL (Taiwan) and the HSK (mainland China), in
 traditional or simplified characters.
 
@@ -10,14 +10,15 @@ This repository is a showcase. The source code is private; this page explains
 what the app does and how it is built and run.
 
 <p align="center">
-  <img src="docs/screenshots/home.png" width="18%" alt="Home: today's goal and progress">
-  <img src="docs/screenshots/review.png" width="18%" alt="Review: a flashcard">
-  <img src="docs/screenshots/learn.png" width="18%" alt="Learn: by level, subject, quiz or numbers">
-  <img src="docs/screenshots/cards.png" width="18%" alt="Cards: the catalogue and My Cards">
-  <img src="docs/screenshots/progress.png" width="18%" alt="Progress: mastered, learning, due, not started">
+  <img src="docs/screenshots/1-home.jpg" width="15%" alt="Home: today's goal and progress">
+  <img src="docs/screenshots/2-card.jpg" width="15%" alt="Review: a flashcard">
+  <img src="docs/screenshots/3-path.jpg" width="15%" alt="A TOCFL level">
+  <img src="docs/screenshots/4-quiz.jpg" width="15%" alt="Quiz">
+  <img src="docs/screenshots/5-topics.jpg" width="15%" alt="Learn by subject">
+  <img src="docs/screenshots/6-learn.jpg" width="15%" alt="Learn: by level, subject, quiz or numbers">
 </p>
 
-<p align="center"><sub>Home · Review · Learn · Cards · Progress (iPhone, dark theme, demo account)</sub></p>
+<p align="center"><sub>Home · Review · Level · Quiz · Topics · Learn (App Store screenshots, demo account)</sub></p>
 
 ## What it does
 
@@ -31,6 +32,8 @@ what the app does and how it is built and run.
   numbers drill.
 - **Progress**: what is mastered, in progress, due or not started, by level
   and by topic.
+- **Daily goal and reminders**: a daily target, a streak, and optional study
+  reminders on the phone.
 - **Script choice**: traditional or simplified, with Taiwanese pinyin where
   usage differs from the mainland.
 
@@ -44,8 +47,8 @@ in full.
 | Backend | Python 3.13, Django 5.2 LTS, Django REST Framework |
 | Frontend | Django templates and HTMX, no SPA framework |
 | Database | PostgreSQL |
-| Identity | Keycloak (OpenID Connect), with Google as an identity provider |
-| Mobile | iOS app built with Capacitor |
+| Identity | Keycloak (OpenID Connect), with Sign in with Apple and Google |
+| Mobile | iOS app built with Capacitor, subscriptions through the App Store |
 | Runtime | Gunicorn behind nginx, Docker Compose |
 | Analytics | PostHog |
 
@@ -86,8 +89,8 @@ the same gates whoever wrote the code.
 ## Status
 
 In production at [malun.app](https://malun.app). The iOS app (version 1.0,
-with a free tier and an optional Pro subscription) was submitted to the App
-Store on 14 November 2026 and is in review. The interface is available in
+with a free tier and an optional Pro subscription) was approved by Apple on
+16 November 2026 and will be published on the App Store shortly. The interface is available in
 French and English.
 
 ---
